@@ -1,7 +1,5 @@
 # Understand the Salesforce Architecture
 
-12:30pm
-
 ## Learning Objectives
 
 - Define key terms related to the Salesforce architecture.
