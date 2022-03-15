@@ -79,7 +79,7 @@ Lightning components are newer and better for things like mobile development, th
 
 ### SLDS - Salesforce Lightning Design System
 
-The SLDS system allows you to style your pages so that they match the look and feel of Salesforces's new interface, Lightning Experience.
+The SLDS system allows you to style your pages so that they match the look and feel of Salesforce's new interface, Lightning Experience.
 
 Visualforce uses a similar convention to Lightning components with `<apex:tagName>`.
 
@@ -87,8 +87,15 @@ One thing that is not shown here, but will be covered going forward, are `Apex C
 
 As previously mentioned, Lightning components use JavaScript on the client-side and Apex on the server-side. Visualforce pages can also use server-side Apex controllers. Most complex pages use quite a bit.
 
-As I continue to explore Visualforce, I'll get VERY famioliar with Apex controllers.
+As I continue to explore Visualforce, I'll get VERY familiar with Apex controllers.
 
 ### Note
 
 You can also access and preview Visualforce pages by searching Visualforce Pages from the Quick Find bar in Setup.
+
+## Resources
+
+- [Lightning Aura Components Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.224.0.lightning.meta/lightning/intro_framework.htm)
+- [Lightning Web Components Developer Guide](https://developer.salesforce.com/docs/component-library/documentation/en/lwc)
+- [Apex Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.224.0.apexcode.meta/apexcode/apex_dev_guide.htm)
+- [Visualforce Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.224.0.pages.meta/pages/pages_intro.htm)
