@@ -1,7 +1,5 @@
 # Extend the Salesforce Platform
 
-6:09pm
-
 ## Learning Objectives
 
 - List the Salesforce APIs.
