@@ -80,7 +80,7 @@ The platform includes a set of standard profiles. Some examples are:
 - System Administrator
 - Minimum Access - Salesforce
 
-Each standard profile includes a default set of permissions for all standard objects available on the platform. For example, a Standard User can create and edit records while a Minimum Access - Salesforce user can view records, but not create or edit them. The System Administrator profile has the widest access to data and the greatest ability to configure and customize Salesforce. 
+Each standard profile includes a default set of permissions for all standard objects available on the platform. For example, a Standard User can create and edit records while a Minimum Access - Salesforce user can view records, but not create or edit them. The System Administrator profile has the widest access to data and the greatest ability to configure and customize Salesforce.
 
 The System Administrator profile also includes two special permissions:
 
