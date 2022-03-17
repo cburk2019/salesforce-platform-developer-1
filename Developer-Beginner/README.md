@@ -7,3 +7,4 @@ Follow along my journey to becoming a Salesforce developer and watch me land tha
 - [Platform Development Basics](/Developer-Beginner/Platform-Development-Basics/README.md)
 - [Data Modeling](/Developer-Beginner/Data-Modeling/README.md)
 - [Data Management](/Developer-Beginner/Data-Management/README.md)
+- [Data Secruity](/Developer-Beginner/Data-Security/README.md)
