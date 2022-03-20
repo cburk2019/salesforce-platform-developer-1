@@ -167,6 +167,8 @@ And we’re done! Now DreamHouse brokers can quickly schedule a new showing with
 
 ## Test the Action in the Salesforce Mobile App
 
+### *** ***THE APP IS CRASHING WHEN I TRY THIS STEP - Sat, Mar 19, 11:34pm PDT*** ***
+
 Here comes the really satisfying part—it’s time to test your beautiful new action in the mobile app. So fire up Salesforce on your device, and let’s walk through this use case together.
 
 1. Tap the `Navigation Menu Icon` to open the navigation menu. If you’re already in the Sales Lightning app, pull down to refresh the navigation menu. If you’re not in the Sales Lightning app, tap `App Launcher`, then tap the `Sales Lightning` app to open it.
