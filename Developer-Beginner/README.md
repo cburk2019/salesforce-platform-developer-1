@@ -10,3 +10,4 @@ Follow along my journey to becoming a Salesforce developer and watch me land tha
 - [Data Security](/Developer-Beginner/Data-Security/README.md)
 - [Formulas and Validations](/Developer-Beginner/Formulas-and-Validations/README.md)
 - [Salesforce Flow](/Developer-Beginner/Salesforce-Flow/README.md)
+- [Salesforce Mobile App Customization](/Developer-Beginner/Salesforce-Mobile-App-Customization/README.md)
