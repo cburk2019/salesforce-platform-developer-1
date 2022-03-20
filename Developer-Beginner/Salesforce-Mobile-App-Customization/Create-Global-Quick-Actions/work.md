@@ -1,7 +1,5 @@
 # Salesforce -> Developer Beginner -> Salesforce Mobile App Customization -> Create Global Quick Actions
 
-8:24pm
-
 ## Learning Objectives
 
 - Describe the differences between the two main types of actions.
