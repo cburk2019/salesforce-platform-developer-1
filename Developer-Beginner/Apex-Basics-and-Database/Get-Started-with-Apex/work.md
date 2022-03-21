@@ -287,3 +287,13 @@ Because the `sendMail()` method in our class doesn’t access class member varia
 - [Introduction to Apex Code (Recorded Webinar)](https://www.youtube.com/watch?v=WBeCWlbGX38)
 - [Apex Developer Guide: Introducing Apex](https://developer.salesforce.com/docs/atlas.en-us.224.0.apexcode.meta/apexcode/apex_intro.htm)
 - [Trailhead: Developer Console Basics](https://trailhead.salesforce.com/content/learn/modules/developer_console)
+
+## Completed Challenge
+
+### The Challenge
+
+![Create an Apex class with a method that returns a list of strings](/assets/get-started-with-apex-challenge.png)
+
+### The Solution
+
+![the solution](/assets/get-started-with-apex-challenge-solution.png)
