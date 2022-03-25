@@ -394,3 +394,11 @@ DML operations execute within a transaction. All DML operations in a transaction
 - Apex Developer Guide: [Working with Data in Apex](https://developer.salesforce.com/docs/atlas.en-us.224.0.apexcode.meta/apexcode/apex_data_intro.htm)
 - Apex Developer Guide: [Adding and Retrieving Data With DML](https://developer.salesforce.com/docs/atlas.en-us.224.0.apexcode.meta/apexcode/apex_dml_section.htm)
 - Apex Developer Guide: [Database Class](https://developer.salesforce.com/docs/atlas.en-us.224.0.apexcode.meta/apexcode/apex_methods_system_database.htm)
+
+## Hands-On Challenge
+
+![the challenge - Create a method for inserting accounts.](/assets/manipulate-records-with-DML-challenge.png)
+
+### Solution
+
+![the solution](/assets/manipulate-records-with-DML-challenge-solution.png)
