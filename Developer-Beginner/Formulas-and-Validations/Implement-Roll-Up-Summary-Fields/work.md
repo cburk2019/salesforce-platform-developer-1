@@ -27,7 +27,7 @@ You define a roll-up summary field on the object that is on the master side of a
 
 - For example, you can create a roll-up summary field on the Account object, summarizing related opportunities:
 
-    ![Example of fields rolling up to sum opportunities.](/assets/related-opportunities.png)
+    ![Example of fields rolling up to sum opportunities.](/Developer-Beginner/Formulas-and-Validations/Implement-Roll-Up-Summary-Fields/assets/related-opportunities.png)
 
 - There are a few different types of summaries you can use.
 
@@ -57,19 +57,19 @@ Here are more examples of detail data rolling up to master records.
 
 A roll-up field was created on the Accounts object. The MIN of all Created Date fields on the Opportunities object displays the earliest date an opportunity was created related to an account.
 
-![Example of rolling up the opportunity created date to an account.](/assets/created-date-MIN.png)
+![Example of rolling up the opportunity created date to an account.](/Developer-Beginner/Formulas-and-Validations/Implement-Roll-Up-Summary-Fields/assets/created-date-MIN.png)
 
 ## Total Price of All Products Related to an Opportunity
 
 A roll-up field was created on the Opportunities object. Total Price is summarized on the Opportunity Product object to find the grand total of all products related to an opportunity.
 
-![Example of rolling up the product total for an opportunity.](/assets/total-price-roll-up-summary.png)
+![Example of rolling up the product total for an opportunity.](/Developer-Beginner/Formulas-and-Validations/Implement-Roll-Up-Summary-Fields/assets/total-price-roll-up-summary.png)
 
 ## Minimum List Price of An Opportunity
 
 A roll-up field was created on the Opportunities object. List Price is summarized on the Opportunity Product object to find the product with the lowest price related to an opportunity.
 
-![Example of rolling up the minimum product price on an opportunity.](/assets/minimum-list-price.png)
+![Example of rolling up the minimum product price on an opportunity.](/Developer-Beginner/Formulas-and-Validations/Implement-Roll-Up-Summary-Fields/assets/minimum-list-price.png)
 
 ## Tell Me More
 
