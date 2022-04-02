@@ -10,7 +10,7 @@
 
 When you think about the Salesforce architecture, imagine a series of layers that sit on top of each other. Sometimes it helps to think of it as a cake because cake is delicious, and it makes everything better.
 
-![salesforce architecture](/assets/salesforce-architecture.png)
+![salesforce architecture](/Salesforce-Platform-Basics/Understand-the-Salesforce-Architecture/assets/salesforce-architecture.png)
 
 ### Salesforce Architecture
 
@@ -32,7 +32,7 @@ When you think about the Salesforce architecture, imagine a series of layers tha
 
 ### ***Multitenancy***
 
-![multitenancy apt building](/assets/multitenancy.png)
+![multitenancy apt building](/Salesforce-Platform-Basics/Understand-the-Salesforce-Architecture/assets/multitenancy.png)
 
 Multitenancy is a great word for making you sound smart at dinner parties, but really all it means is that you’re sharing resources. Salesforce provides a core set of services to all our customers in the multitenant cloud. No matter the size of your business, you get access to the same computing power, data storage, and core features.
 
@@ -60,4 +60,4 @@ Earlier, we talked about the database. When you add a custom object or field, th
 
 For example, we can use a contact’s Name field in a bunch of places, like the Salesforce mobile app, a custom page, or even an email template. That’s all possible because of the API name.
 
-![API example](/assets/API-example.png)
+![API example](/Salesforce-Platform-Basics/Understand-the-Salesforce-Architecture/assets/API-example.png)

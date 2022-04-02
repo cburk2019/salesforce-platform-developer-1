@@ -16,7 +16,7 @@ You can get to Setup from any page in your Salesforce org. From the gear menu at
 
 ### Example
 
-![setup example](/assets/setup-example.png)
+![setup example](/Salesforce-Platform-Basics/Navigate-Setup/assets/setup-example.png)
 
 1) ***Object Manager***: Object Manager is where you can view and customize standard and custom objects in your org.
 2) ***Setup Menu***: The menu gives you quick links to a collection of pages that let you do everything from managing your users to modifying security settings.

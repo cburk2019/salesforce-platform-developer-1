@@ -41,7 +41,7 @@ These are example companies used throughout this course for examples of how to u
 - ***Object***
 - ***Database*** - Think of a giant spreadsheet. When you put info into Salesforce, it gets stored in the database so you can access it again later. it's stored in a very specific way, so you're always accessing the info you need.
 
-  ![DreamHouse App](/assets/DreamHouse-app.png)
+  ![DreamHouse App](/Salesforce-Platform-Basics/Get-Started-with-the-Salesforce-Platform/assets/DreamHouse-app.png)
     1) An ***app*** in Salesforce is a set of objects, fields, and other functionality that supports a business process. You can see which app you’re using and switch between apps using the App Launcher ( App Launcher icon).
     2) ***Objects*** are tables in the Salesforce database that store a particular kind of information. There are ***standard objects*** like Accounts and Contacts and ***custom objects*** like the Property object you see in the graphic.
     3) ***Records*** are **rows** in object database tables. Records are the actual data associated with an object. Here, the 211 Charles Street property is a record.

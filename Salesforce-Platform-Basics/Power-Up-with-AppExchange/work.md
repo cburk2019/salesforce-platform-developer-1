@@ -9,7 +9,7 @@
 
 The "enterprise ecosystem". Salesforce has a community of partners that use the flexibility of the Salesforce platform to build amazing apps and other solutions that anyone can use. These offerings are available (some for free, some at a cost) for installation on AppExchange.
 
-![AppExchange pic](/assets/AppExchange.png)
+![AppExchange pic](/Salesforce-Platform-Basics/Power-Up-with-AppExchange/assets/AppExchange.png)
 
 ## Strategies for Success
 
