@@ -40,7 +40,7 @@ The DreamHouse App is an example of what is typically referred to as an internal
 
 The app itself is built using various parts of the Salesforce platform. Below is an overview diagram of the system landscape of the DreamHouse application set. It includes Heroku services and other connected devices.
 
-![DreamHouse Application Set](/assets/DreamHouse-app-set.png)
+![DreamHouse Application Set](/Developer-Beginner/Platform-Development-Basics/Develop-Without-Code/assets/DreamHouse-app-set.png)
 
 For the DreamHouse app, Salesforce has created 3 custom objects that support the core app functionality:
 
@@ -52,7 +52,7 @@ For the DreamHouse app, Salesforce has created 3 custom objects that support the
 
 There is a handy tool that the platform provides called ***Schema Builder***.
 
-![schema builder example](/assets/schema-builder-example.png)
+![schema builder example](/Developer-Beginner/Platform-Development-Basics/Develop-Without-Code/assets/schema-builder-example.png)
 
 ## No-Code and Low-Code Development
 
@@ -68,4 +68,4 @@ Some development tasks, like writing validation rules or hooking up components w
 
 The no-code and low-code development capabilities that the Salesforce platform provides means that you, as a developer, can move faster. If you’re the only person at your company developing on Salesforce, you can use the platform’s many declarative tools to build more in less time. If you’re working on a team with non-coders, you can leave the declarative development tasks to them while you double down on more code-intensive projects.
 
-![prcoess builder example](/assets/process-builder-example.png)
+![process builder example](/Developer-Beginner/Platform-Development-Basics/Develop-Without-Code/assets/process-builder-example.png)
