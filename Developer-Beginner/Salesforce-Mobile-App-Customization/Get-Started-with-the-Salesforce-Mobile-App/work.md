@@ -62,7 +62,7 @@ DreamHouse Realty is a thriving real estate business with 75 brokers. And those 
 
 D’Angelo Cunningham, the Salesforce admin for DreamHouse, heard about the Salesforce mobile app, and he thinks it can help the brokers stay productive when they’re out in the field.
 
-![D'Angelo dreaming up mobile possibilities](/assets/deangelo-dream-mobile.png)
+![D'Angelo dreaming up mobile possibilities](/Developer-Beginner/Salesforce-Mobile-App-Customization/Get-Started-with-the-Salesforce-Mobile-App/assets/deangelo-dream-mobile.png)
 
 So D’Angelo did his homework. He talked to his brokers and did a few ride-alongs to find moments where the mobile app might be able to solve their problems or speed up certain processes.
 

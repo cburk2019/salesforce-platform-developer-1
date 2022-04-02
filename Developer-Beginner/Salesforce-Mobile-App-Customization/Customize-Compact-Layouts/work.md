@@ -30,7 +30,7 @@ Creating and customizing compact layouts for your objects isn’t required becau
 
 Let’s look at an example from DreamHouse Realty. D’Angelo has been experimenting with compact layouts for the Property object, and he’s pleased with the results. Check out screenshots of a property header in the mobile app before and after he customized the object’s compact layout.
 
-![A comparison showing new information in a compact layout added to a record page](/assets/compact-layout-before-after.png)
+![A comparison showing new information in a compact layout added to a record page](/Developer-Beginner/Salesforce-Mobile-App-Customization/Customize-Compact-Layouts/assets/compact-layout-before-after.png)
 
 If you put key fields on an object’s compact layout, mobile users can see important details at a glance.
 
@@ -51,7 +51,7 @@ D’Angelo already took care of the compact layout for the property object, but 
 
 5. Sort the fields by selecting them and clicking Up or Down . Be sure to put the object’s Name field first to provide context for your users when they view a record.
 
-    ![A screenshot of the selected fields for the contact compact layout](/assets/contact-compact-layout.png)
+    ![A screenshot of the selected fields for the contact compact layout](/Developer-Beginner/Salesforce-Mobile-App-Customization/Customize-Compact-Layouts/assets/contact-compact-layout.png)
 
 6. Click `Save`.
 
@@ -63,7 +63,7 @@ Even though we created a compact layout, the Salesforce mobile app will continue
 2. Click `Edit Assignment`.
 3. In the Primary Compact Layout dropdown list, select `Mobile Contact Layout`.
 
-    ![A screenshot of the new compact layout selected as the primary layout](/assets/primary-compact-layout-choice.png)
+    ![A screenshot of the new compact layout selected as the primary layout](/Developer-Beginner/Salesforce-Mobile-App-Customization/Customize-Compact-Layouts/assets/primary-compact-layout-choice.png)
 
 4. Click `Save`.
 
@@ -81,7 +81,7 @@ Now it’s time to switch over to the mobile app so we can enjoy the fruits of o
 3. Select the contact you created earlier.
 4. Pull down to refresh the record page.
 
-    ![The contact record page shows key details](/assets/contact-record-page.png)
+    ![The contact record page shows key details](/Developer-Beginner/Salesforce-Mobile-App-Customization/Customize-Compact-Layouts/assets/contact-record-page.png)
 
 Ta-dah! The contact record page has some new key details. Sure, it’s a minor change. But that’s how the customization process works. All those little changes add up, and they make a world of difference to mobile users.
 

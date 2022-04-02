@@ -25,7 +25,7 @@ Let’s check out D’Angelo’s use case for object-specific actions so we can 
 
 When D’Angelo did his ride-alongs with a few DreamHouse Realty brokers, he noticed they spent a lot of time showing properties to prospective buyers and managing their schedule. He wants to give the brokers a fast way to schedule a new showing in the Salesforce mobile app, so he’ll create an action that will appear on the contact detail page.
 
-![A broker who is looking at her phone while standing in front of a For Sale sign](/assets/broker-for-sale.png)
+![A broker who is looking at her phone while standing in front of a For Sale sign](/Developer-Beginner/Salesforce-Mobile-App-Customization/Create-Object-Specific-Quick-Actions/assets/broker-for-sale.png)
 
 ## Lay the Groundwork
 
@@ -41,7 +41,7 @@ If you created the Property object in your org when you earned the Data Modeling
 2. In the Label field, enter `Property`.
 3. In the Plural Label field, enter `Properties`.
 
-    ![A screenshot of the custom object's details](/assets/custom-object-details-example.png)
+    ![A screenshot of the custom object's details](/Developer-Beginner/Salesforce-Mobile-App-Customization/Create-Object-Specific-Quick-Actions/assets/custom-object-details-example.png)
 
 4. In the Optional Features section, select `Allow Activities`.
 5. Click `Save`.
@@ -66,18 +66,18 @@ The best way to handle this customization challenge is with a new event record t
 3. Select `Event Layout` from the Existing Page Layout dropdown list.
 4. In the Page Layout Name field, enter `Showing Layout`.
 
-    ![A screenshot of the new page layout's details](/assets/new-page-layout.png)
+    ![A screenshot of the new page layout's details](/Developer-Beginner/Salesforce-Mobile-App-Customization/Create-Object-Specific-Quick-Actions/assets/new-page-layout.png)
 
 5. Click `Save`.
 6. From the Event object management settings, go to Record Types and click `New`.
 7. Enter `Showing` in both the Record Type Label and Record Type Name fields.
 
-    ![A screenshot of the new record type's details](/assets/new-record-type-details.png)
+    ![A screenshot of the new record type's details](/Developer-Beginner/Salesforce-Mobile-App-Customization/Create-Object-Specific-Quick-Actions/assets/new-record-type-details.png)
 
 8. Click `Next`.
 9. Select `Showing Layout` in the Apply one layout to all profiles dropdown list.
 
-    ![A screenshot of the page layout assignment for the new record type ](/assets/new-layout-assignment.png)
+    ![A screenshot of the page layout assignment for the new record type ](/Developer-Beginner/Salesforce-Mobile-App-Customization/Create-Object-Specific-Quick-Actions/assets/new-layout-assignment.png)
 
     - This layout only applies to the Showing record type. The standard event record type continues to use the Event Layout.
 
@@ -95,12 +95,12 @@ Hang in there! This is the last step. We just need to create a custom Property f
 6. Select the `Visible` checkbox so the field is available to all profiles, then click `Next`.
 7. Deselect the Event Layout and Task Layout. We only want this field to appear on the Showing Layout.
 
-    ![A screenshot of the Showing Layout as the only selected layout for the new field](/assets/showing-layout.png)
+    ![A screenshot of the Showing Layout as the only selected layout for the new field](/Developer-Beginner/Salesforce-Mobile-App-Customization/Create-Object-Specific-Quick-Actions/assets/showing-layout.png)
 
 8. Click `Next`.
 9. Enter Showings in the Related List Label field.
 
-    ![A screenshot of the related list label for the Property field](/assets/related-list-label.png)
+    ![A screenshot of the related list label for the Property field](/Developer-Beginner/Salesforce-Mobile-App-Customization/Create-Object-Specific-Quick-Actions/assets/related-list-label.png)
 
 10. Click `Save`.
 
@@ -117,7 +117,7 @@ Here’s what we need to do. D’Angelo wants to create a `New Showing` quick ac
 5. In the Record Type dropdown, click `Showing`.
 6. Enter `New Showing` in the Label field.
 
-    ![A screenshot of the new action's details](/assets/new-action-details-example-2.png)
+    ![A screenshot of the new action's details](/Developer-Beginner/Salesforce-Mobile-App-Customization/Create-Object-Specific-Quick-Actions/assets/new-action-details-example-2.png)
 
 7. Click `Save`.
 8. In the layout editor, remove the following fields:
@@ -128,7 +128,7 @@ Here’s what we need to do. D’Angelo wants to create a `New Showing` quick ac
 9. Add the Property field to the layout and make it required. You can double-click the field to edit its settings.
 10. Remove any extra spaces and arrange the fields in a single column.
 
-    ![A screenshot of the new action's layout with 5 fields in a single column](/assets/new-action-with-5-fields.png)
+    ![A screenshot of the new action's layout with 5 fields in a single column](/Developer-Beginner/Salesforce-Mobile-App-Customization/Create-Object-Specific-Quick-Actions/assets/new-action-with-5-fields.png)
 
 11. Click `Save`.
 12. Click `Yes` to acknowledge the warning. Even though it’s required, it’s fine to remove the Assigned To field from the layout because it defaults to the current user.
@@ -142,7 +142,7 @@ Here’s what we need to do. D’Angelo wants to create a `New Showing` quick ac
 14. In the Field Name dropdown list, select `Subject`.
 15. In the Specify New Field Value field, enter "`Showing"`. Be sure to put the quotation marks around the word.
 
-    ![A screenshot of the predefined value for the Subject field](/assets/predefined-value-subject-field.png)
+    ![A screenshot of the predefined value for the Subject field](/Developer-Beginner/Salesforce-Mobile-App-Customization/Create-Object-Specific-Quick-Actions/assets/predefined-value-subject-field.png)
 
 16. Click `Save`.
 
@@ -155,11 +155,11 @@ We’re in the home stretch! Now we just need to add the new action to the page 
 3. In the Salesforce Mobile and Lightning Experience Actions, if you see a link to `override the predefined actions`, click the link to override.
 4. Select `Mobile & Lightning Actions` in the palette, then drag the New Showing quick action into the mobile section. Make sure it’s the first item.
 
-    ![A screenshot of the New Showing action in the Salesforce1 section of the contact page layout](/assets/new-showing-action-example.png)
+    ![A screenshot of the New Showing action in the Salesforce1 section of the contact page layout](/Developer-Beginner/Salesforce-Mobile-App-Customization/Create-Object-Specific-Quick-Actions/assets/new-showing-action-example.png)
 
 5. Reorganize the actions so the most frequently used ones are first, and remove any unnecessary actions.
 
-    ![A screenshot of the reorganized actions in the Salesforce1 section of the contact page layout](/assets/reorganized-actions.png)
+    ![A screenshot of the reorganized actions in the Salesforce1 section of the contact page layout](/Developer-Beginner/Salesforce-Mobile-App-Customization/Create-Object-Specific-Quick-Actions/assets/reorganized-actions.png)
 
 6. Click `Save`.
 
@@ -176,7 +176,7 @@ Here comes the really satisfying part—it’s time to test your beautiful new a
 3. Tap `New`.
 4. For the property name, enter a street address.
 
-    ![A screenshot of the property detail page in the Salesforce mobile app](/assets/mobile-app-property-detail-page.png)
+    ![A screenshot of the property detail page in the Salesforce mobile app](/Developer-Beginner/Salesforce-Mobile-App-Customization/Create-Object-Specific-Quick-Actions/assets/mobile-app-property-detail-page.png)
 
 5. Fill out other required fields, if any, then tap Save. Now we can look up a prospective buyer and schedule a showing with them.
 6. Open the navigation menu, then tap Contacts.
@@ -184,11 +184,11 @@ Here comes the really satisfying part—it’s time to test your beautiful new a
 8. Pull down to refresh the action bar.
 9. Tap New Showing.
 
-    ![The New Showing action in the Salesforce mobile app action bar](/assets/new-showing-button.png)
+    ![The New Showing action in the Salesforce mobile app action bar](/Developer-Beginner/Salesforce-Mobile-App-Customization/Create-Object-Specific-Quick-Actions/assets/new-showing-button.png)
 
 10. Complete the fields.
 
-    ![Details about the new showing](/assets/new-showing-details.png)
+    ![Details about the new showing](/Developer-Beginner/Salesforce-Mobile-App-Customization/Create-Object-Specific-Quick-Actions/assets/new-showing-details.png)
 
     - Tip
       - Dictation is much faster than typing. When you get to the Description field, activate voice input by selecting the Microphone icon on the keyboard. This native OS feature can be a real time-saver for busy mobile users, so be sure to tell them about it.
