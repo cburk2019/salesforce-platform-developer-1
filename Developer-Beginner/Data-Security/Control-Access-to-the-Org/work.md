@@ -41,7 +41,7 @@ Salesforce auto-generates a password and notifies new users immediately. Users c
 1. Use the Quick Find box to find `Users | Users` in Setup.
 2. Click `New User`. Or you can click `Add Multiple Users` to add up to ten users at a time.
 
-    ![Diagram of the relationship between the Position and Job Application custom objects in a record detail page](/assets/new-user-diagram.png)
+    ![Diagram of the relationship between the Position and Job Application custom objects in a record detail page](/Developer-Beginner/Data-Security/Control-Access-to-the-Org/assets/new-user-diagram.png)
 
 3. Enter the user’s name, email address, and a unique username in the form of an email address. By default, the username is the same as the email address.
 4. Select the user license this user will have. The license determines which profiles are available for each user.
@@ -81,7 +81,7 @@ If a user is locked out due to too many failed login attempts, you can unlock th
 
 1. Use the Quick Find box to find `Password Policies` in Setup.
 
-    ![Diagram of the relationship between the Position and Job Application custom objects in a record detail page](/assets/password-policies-diagram.png)
+    ![Diagram of the relationship between the Position and Job Application custom objects in a record detail page](/Developer-Beginner/Data-Security/Control-Access-to-the-Org/assets/password-policies-diagram.png)
 
 2. Customize the password settings.
 
@@ -112,7 +112,7 @@ By default, Salesforce doesn't restrict locations for login access. If you do no
 3. Click `Login IP Ranges`. If you don't have Enhanced Profile Interface enabled, scroll down to the Login IP Range related list.
 4. Click `New`.
 
-    ![Trusted IP range selection](/assets/ip-ranges-example.png)
+    ![Trusted IP range selection](/Developer-Beginner/Data-Security/Control-Access-to-the-Org/assets/ip-ranges-example.png)
 
 5. Enter the start and end point of the range of trusted IP addresses, and click `Save`.
 

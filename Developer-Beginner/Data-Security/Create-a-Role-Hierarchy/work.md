@@ -30,7 +30,7 @@ For example, if a software development group has a staff software engineer and a
 1. From Setup, use the Quick Find box to find `Roles`.
     - If you see an introductory splash page called Understanding Roles, click `Set Up Roles` at the bottom of the page to skip to the actual tool. The default view for this page is the tree view, as indicated in the drop-down list on the far right side of the Role Hierarchy title bar. When creating a role hierarchy, it's probably easiest to stick with this or the list view, because they both make it easy to see how the roles all fit together in the hierarchy. The sorted list view is best if you know the name of a role that you want to find but aren't sure where it fits in the hierarchy, or if you don't want to click open all the tree nodes. For our purposes, we'll stick with the tree view.
 
-        - ![The Create Role Hierarchy page with the organization role hierarchy set to](/assets/creating-the-role-hierarchy.png)
+        - ![The Create Role Hierarchy page with the organization role hierarchy set to](/Developer-Beginner/Data-Security/Create-a-Role-Hierarchy/assets/creating-the-role-hierarchy.png)
 
     When you first start defining a role hierarchy, the tree view displays a single placeholder node with the name of your org. From this point, we need to add the name of the role that is highest up in the hierarchy—in our case, the CEO. If you’re building your app with a free Developer Edition or Trailhead Playground org, you may have a role hierarchy predefined as a sample. That's all right. You can still follow along and create some more roles.
 
@@ -41,7 +41,7 @@ For example, if a software development group has a staff software engineer and a
 6. Leave any other options, such as `Opportunity Access`, set to their defaults, and save. These access options don't have anything to do with our Recruiting app, and only appear if you have the org-wide defaults for a standard object set to a level more restrictive than `Public Read/Write`.
 7. Now that you’ve created your first role, you can assign the appropriate user to it. Click `CEO`, and on the CEO role detail page, click `Assign Users to Role`.
 
-    - ![The Role Detail page for the CEO role](/assets/CEO-role-example.png)
+    - ![The Role Detail page for the CEO role](/Developer-Beginner/Data-Security/Create-a-Role-Hierarchy/assets/CEO-role-example.png)
 
 8. In the `Available Users` drop-down list, select All Unassigned.
 9. Choose a user from the list, and click `Add` to move her to the `Selected Users for CEO` list, then save.
@@ -56,7 +56,7 @@ To speed up the process of adding a new role, click `Add Role` directly under th
 
 Let's take a look at a branch of the role hierarchy for a fictional company that’s using our Recruiting app. Remember, with the org-wide defaults we defined, hiring managers are allowed to view (but not create or update) all position, job posting, and employment website records, and to view and update other recruiting records they own. That doesn't make our app all that useful. However, once our role hierarchy is in place, our users can get to the data they need, and our app is off and running.
 
-![The role hierarchy for the Universal Containers company](/assets/role-hierarchy-example.png)
+![The role hierarchy for the Universal Containers company](/Developer-Beginner/Data-Security/Create-a-Role-Hierarchy/assets/role-hierarchy-example.png)
 
 This role hierarchy automatically grants these kinds of record-level permissions:
 
