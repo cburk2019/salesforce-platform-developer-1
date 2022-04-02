@@ -41,11 +41,11 @@ Later, we talk about when to use each tool, but for now here’s a sneak peek at
 
 ### Flow Builder
 
-![A sample business process configured in Flow Builder](/assets/flow-builder.png)
+![A sample business process configured in Flow Builder](/Developer-Beginner/Salesforce-Flow/Choose-the-Right-Automation-Tool/assets/flow-builder.png)
 
-### Process Builder 
+### Process Builder
 
-![A sample business process configured in Process Builder](/assets/process-builder.png)
+![A sample business process configured in Process Builder](/Developer-Beginner/Salesforce-Flow/Choose-the-Right-Automation-Tool/assets/process-builder.png)
 
 Salesforce Flow makes it easy for you to do the following.
 

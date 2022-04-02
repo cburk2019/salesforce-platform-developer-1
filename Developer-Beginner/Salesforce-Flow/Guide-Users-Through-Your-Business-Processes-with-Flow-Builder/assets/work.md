@@ -24,7 +24,7 @@ Every flow is made up of three building blocks.
 - connectors
 - resources in a flow
 
-![Elements, connectors, and resources in a flow](/assets/flow-building-blocks.png)
+![Elements, connectors, and resources in a flow](/Developer-Beginner/Salesforce-Flow/Guide-Users-Through-Your-Business-Processes-with-Flow-Builder/assets/flow-building-blocks.png)
 
 - `Elements (1)` appear on the canvas. To add an element to the canvas, click `Add Element` where you want it to go.
 - `Connectors (2)` define the path that the flow takes at run time. They tell the flow which element to execute next.
@@ -36,13 +36,13 @@ Flow elements fit into four different categories.
 
 Display data to your users or collect information from them with Screen elements. You can add simple fields to your screens, like input fields and radio buttons as well as out-of-the-box Lightning components like File Upload.
 
-![A flow screen that's built with out-of-the-box fields and components](/assets/flow-screen-out-of-the-box.png)
+![A flow screen that's built with out-of-the-box fields and components](/Developer-Beginner/Salesforce-Flow/Guide-Users-Through-Your-Business-Processes-with-Flow-Builder/assets/flow-screen-out-of-the-box.png)
 
 If you need more out of your flow screens, like custom navigation or information displayed in table format, build or install custom Lightning components.
 
-![A flow screen built with custom components. YES](/assets/flow-screen-custom-components-yes.png)
+![A flow screen built with custom components. YES](/Developer-Beginner/Salesforce-Flow/Guide-Users-Through-Your-Business-Processes-with-Flow-Builder/assets/flow-screen-custom-components-yes.png)
 
-![A flow screen built with custom components. NO](/assets/flow-screen-custom-components-no.png)
+![A flow screen built with custom components. NO](/Developer-Beginner/Salesforce-Flow/Guide-Users-Through-Your-Business-Processes-with-Flow-Builder/assets/flow-screen-custom-components-no.png)
 
 ### `Logic`
 
@@ -85,7 +85,7 @@ Core actions let you make requests without going through the Salesforce server. 
 
 When you build flows, you work from `Flow Builder`.
 
-![Screenshot of Flow Builder's user interface with numbers pointing at the toolbox, canvas, and button bar](/assets/flow-builder-diagram.png)
+![Screenshot of Flow Builder's user interface with numbers pointing at the toolbox, canvas, and button bar](/Developer-Beginner/Salesforce-Flow/Guide-Users-Through-Your-Business-Processes-with-Flow-Builder/assets/flow-builder-diagram.png)
 
 ### **`Toolbox (1)`**
 
@@ -140,7 +140,7 @@ From Setup, enter Flows in the Quick Find box, then select `Flows`, click `New F
 7. Select the Phone Number screen component. Enter Phone Number in the Label field and Phone_Number in the API Name field.
 8. Select the footer under the screen components. On the right, expand `Configure Footer`. Under Previous Button, select `Hide Previous`. Under Pause Button, select `Hide Pause`.
 
-    ![Screenshot of the Screen Components screen](/assets/screen-components-screen.png)
+    ![Screenshot of the Screen Components screen](/Developer-Beginner/Salesforce-Flow/Guide-Users-Through-Your-Business-Processes-with-Flow-Builder/assets/screen-components-screen.png)
 
 9. Click `Done`.
 
@@ -159,7 +159,7 @@ The Create Records element uses the values from New Account to create an account
 9. In Field, select Phone.
 10. In Value, under SCREEN COMPONENTS select `Phone_Number`, then click `Value`. Make sure that your Create Records element looks like this.
 
-    ![Screenshot of the New Create Records screen](/assets/new-create-records-screen.png)
+    ![Screenshot of the New Create Records screen](/Developer-Beginner/Salesforce-Flow/Guide-Users-Through-Your-Business-Processes-with-Flow-Builder/assets/new-create-records-screen.png)
 
 11. Click `Done`.
 
@@ -178,7 +178,7 @@ The second screen element lets users upload files for the account that they crea
     - For Allow Multiple Files, select $GlobalConstant.True.
     - For Related Record ID, under VARIABLES select AccountId from Create_Account. The resulting value should be {!Create_Account}.
 
-    ![The field settings for the file upload component field](/assets/file-upload-field-settings.png)
+    ![The field settings for the file upload component field](/Developer-Beginner/Salesforce-Flow/Guide-Users-Through-Your-Business-Processes-with-Flow-Builder/assets/file-upload-field-settings.png)
 
 4. Click `Done`.
 5. Save the flow. In Flow Label, enter Quick Account.
@@ -210,7 +210,7 @@ Only active flows are available in the Lightning App Builder, so first activate 
 
 2. Drag the Flow component to the top of the right column.
 
-    ![Dragging the Flow component onto a home page](/assets/flow-component.png)
+    ![Dragging the Flow component onto a home page](/Developer-Beginner/Salesforce-Flow/Guide-Users-Through-Your-Business-Processes-with-Flow-Builder/assets/flow-component.png)
 
 3. For Flow, select `Quick Account`.
 4. Click `Save` and `Activate` to save your changes and activate the page.
@@ -219,7 +219,7 @@ Only active flows are available in the Lightning App Builder, so first activate 
     a. Click `Back` to return to Setup.
     b. Click `App Launcher` icon, click `Sales`, then click `Home`.
 
-![Resulting home page](/assets/quick-account-home-page.png)
+![Resulting home page](/Developer-Beginner/Salesforce-Flow/Guide-Users-Through-Your-Business-Processes-with-Flow-Builder/assets/quick-account-home-page.png)
 
 ## Make Sure Your Users Can Run the Flow
 
