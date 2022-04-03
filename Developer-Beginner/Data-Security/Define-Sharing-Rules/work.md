@@ -83,7 +83,7 @@ Using a public group when defining a sharing rule makes the rule easier to creat
 1. In Setup, use the Quick Find box to find `Public Groups`.
 2. Click New.
 
-    ![Create a public group Setup page](/assets/new-public-group.png)
+    ![Create a public group Setup page](/Developer-Beginner/Data-Security/Define-Sharing-Rules/assets/new-public-group.png)
 
 3. Give your group a label. The `Group Name` text box populates automatically when you click it. This is the unique name used by the API and managed packages.
 4. In the `Search` drop-down list, choose from which individual users, other groups, or roles you’ll select users, and whether their subordinates are included. You can include a combination of member types in your public groups.

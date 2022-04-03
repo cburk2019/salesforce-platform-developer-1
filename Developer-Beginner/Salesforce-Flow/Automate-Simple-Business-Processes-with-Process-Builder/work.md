@@ -22,7 +22,7 @@ Every process consists of a trigger, at least one criteria node, and at least on
 
 Here’s an example of a simple process.
 
-![An example of a process with one criteria node, one immediate action, and one scheduled action.](/assets/process-with-components.png)
+![An example of a process with one criteria node, one immediate action, and one scheduled action.](/Developer-Beginner/Salesforce-Flow/Automate-Simple-Business-Processes-with-Process-Builder/assets/process-with-components.png)
 
 ## Trigger: Identify When the Process Should Run
 
@@ -75,7 +75,7 @@ To keep things simple, this unit focuses on the most common process type: ***`Re
 
 Before you dig into the Process Builder, let’s take a quick tour.
 
-![Screenshot of the Process Builder user interface](/assets/process-builder-UI.png)
+![Screenshot of the Process Builder user interface](/Developer-Beginner/Salesforce-Flow/Automate-Simple-Business-Processes-with-Process-Builder/assets/process-builder-UI.png)
 
 The button bar **`(1)`** lets you manage the process or view the list of all processes.
 
@@ -107,7 +107,7 @@ Plan out your business process before you try to automate it. Doing so makes it 
 2. For Object, enter Opp to filter the list of options and select `Opportunity`.
 3. Select when a record is created or edited.
 
-    ![Choose Object and Specify When to Start the Process panel](/assets/process-start-example.png)
+    ![Choose Object and Specify When to Start the Process panel](/Developer-Beginner/Salesforce-Flow/Automate-Simple-Business-Processes-with-Process-Builder/assets/process-start-example.png)
 
 4. Click `Save`.
 
@@ -131,7 +131,7 @@ Now let’s define the criteria. We check whether the opportunity is closed won 
     e. For Value **`(4)`**, enter `250,000`.
     f. Be sure `All of the conditions are met` is selected.
 
-    ![Define Criteria for this Action Group panel](/assets/action-group-example.png)
+    ![Define Criteria for this Action Group panel](/Developer-Beginner/Salesforce-Flow/Automate-Simple-Business-Processes-with-Process-Builder/assets/action-group-example.png)
 
 6. Click `Advanced` and select Yes. When you select this option, the process ignores record changes that aren’t relevant to your defined criteria. For example, if the opportunity’s description is updated, the process won’t execute the associated actions.
 7. Click `Save`.
@@ -143,7 +143,7 @@ Let’s have the owner follow up with the account 6 days after the opportunity c
 1. Under Scheduled Actions, click `Set Schedule`.
 2. Set the schedule for 6 days after the opportunity closes.
 
-    ![Set a Schedule panel](/assets/set-schedule-example-1.png)
+    ![Set a Schedule panel](/Developer-Beginner/Salesforce-Flow/Automate-Simple-Business-Processes-with-Process-Builder/assets/set-schedule-example-1.png)
 
 3. Click `Save`.
 
@@ -161,10 +161,10 @@ Now let’s define the actions that execute when the criteria are met. We need a
     a. For Type, select `Field Reference`.
     b. For Value, select `Opportunity` | `Account ID` (with no arrow next to it) and then click `Choose`.
       - When you select a value without an arrow next to it, you're selecting a field. To use fields on related records, click a value with an arrow next to it.
-     ![Select Opportunity > Account ID](/assets/select-account-id.png)
+     ![Select Opportunity > Account ID](/Developer-Beginner/Salesforce-Flow/Automate-Simple-Business-Processes-with-Process-Builder/assets/select-account-id.png)
 6. Make sure that the new contract is a draft. In the Value for Status, select `Draft` from the dropdown list.
 
-    - [In the process action, the contract's Account ID is set to the opportunity account owner ID and the contract's status is set to Draft.](/assets/process-action-example-1.png)
+    - ![In the process action, the contract's Account ID is set to the opportunity account owner ID and the contract's status is set to Draft.](/Developer-Beginner/Salesforce-Flow/Automate-Simple-Business-Processes-with-Process-Builder/assets/process-action-example-1.png)
 
 7. Click `Save`.
 
@@ -186,7 +186,7 @@ Now let’s define the actions that execute when the criteria are met. We need a
 
 Success! You’ve created a process that automatically manages your high-value business opportunities.
 
-![Final process](/assets/final-process-example.png)
+![Final process](/Developer-Beginner/Salesforce-Flow/Automate-Simple-Business-Processes-with-Process-Builder/assets/final-process-example.png)
 
 To start using this process, just activate it.
 

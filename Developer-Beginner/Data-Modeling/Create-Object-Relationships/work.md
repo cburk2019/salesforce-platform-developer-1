@@ -18,7 +18,7 @@ It would make sense that would be a relationship between the Account object and 
 
 On an Account record, there's a section for Contacts under the related tab.
 
-![account contact relationship example](/assets/account-contact-relationship-example.png)
+![account contact relationship example](/Developer-Beginner/Data-Modeling/Create-Object-Relationships/assets/account-contact-relationship-example.png)
 
 This is an example of a standard relationship in Salesforce.
 

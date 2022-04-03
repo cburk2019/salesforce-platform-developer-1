@@ -23,7 +23,7 @@ A class usually contains one or more methods that do something useful. In this s
 
 2. Click File | Save.
 
-![My first Apex class method!](/assets/my-first-apex-class-method.png)
+![My first Apex class method!](/Developer-Beginner/Apex-Basics-and-Database/Get-Started-with-Apex/Project-Quick-Start-Apex/Add-a-Method-to-the-Class/assets/my-first-apex-class-method.png)
 
 1. The code first sorts Accounts by the date that they were created on.
 2. It then grabs the five oldest records. It uses the SOQL query language (line 3) to do the querying and sorting.

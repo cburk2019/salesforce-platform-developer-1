@@ -26,7 +26,7 @@ The thumb-friendly navigation bar lives at the bottom of your screen. It puts im
 
 Go to the navigation menu by tapping `Menu`. This menu is where users can access all the objects, apps, and items available to them.
 
-![Lightning App Builder navigation items with the mobile menu for comparison.](/assets/mobile-app-menu-comparison.png)
+![Lightning App Builder navigation items with the mobile menu for comparison.](/Developer-Beginner/Salesforce-Mobile-App-Customization/Customize-Navigation/assets/mobile-app-menu-comparison.png)
 
 If you’ve enabled any Lightning apps for mobile, your users can switch between them with the App Launcher. The default navigation uses the first Lightning app listed. If you change the order of the Lightning apps in the App Launcher on desktop, or if your users can personalize the order themselves, those changes sync to the mobile App Launcher with a quick refresh.
 
@@ -34,11 +34,11 @@ When a Lightning app is enabled for desktop and phone, the navigation tabs on th
 
 If you customize the ordering of your navigation menu, make sure that the four most important items are at the top. These four items also conveniently appear in the navigation bar at the bottom of the screen unless your users switch to a Lightning app.
 
-![Comparison showing that the navigation tabs on desktop match the navigation menu items on mobile.](/assets/mobile-app-navigation-example.png)
+![Comparison showing that the navigation tabs on desktop match the navigation menu items on mobile.](/Developer-Beginner/Salesforce-Mobile-App-Customization/Customize-Navigation/assets/mobile-app-navigation-example.png)
 
 Users can also change the order of navigation items while they’re in the mobile app by tapping the `Edit` icon. Of course, if they use the app on desktop, they can see their changes there, too.
 
-![Edit the order of navigation items menu.](/assets/navigation-items-order-menu.png)
+![Edit the order of navigation items menu.](/Developer-Beginner/Salesforce-Mobile-App-Customization/Customize-Navigation/assets/navigation-items-order-menu.png)
 
 ## What You Can Change
 
@@ -70,7 +70,7 @@ D’Angelo wants to customize the navigation menu so that the most important ite
     4. Tasks
     5. Dashboards. The first four items in the list become the first four icons in the navigation bar for your users on mobile, excluding Home that is only used for desktop.
 
-    ![Navigation item list configuration.](/assets/navigation-item-list.png)
+    ![Navigation item list configuration.](/Developer-Beginner/Salesforce-Mobile-App-Customization/Customize-Navigation/assets/navigation-item-list.png)
 
 7. Click `Save`.
 

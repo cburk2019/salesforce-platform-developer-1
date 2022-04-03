@@ -30,7 +30,7 @@ You control record-level access in four ways. They’re listed in order of incre
 - `Sharing rules` - are automatic exceptions to org-wide defaults for particular groups of users, to give them access to records they don’t own or can’t normally see.
 - `Manual sharing` - lets record owners give read and edit permissions to users who might not have access to the record any other way.
 
-![Increasing levels of visibility](/assets/levels-of-visibility.png)
+![Increasing levels of visibility](/Developer-Beginner/Data-Security/Control-Access-to-Records/assets/levels-of-visibility.png)
 
 The visibility and access for any type of data is determined by the interaction of the above security controls, based on these key principles.
 
@@ -63,7 +63,7 @@ To determine the org-wide defaults you need for your app, ask yourself these que
 2. Is there ever going to be an instance of this object that this user shouldn't be allowed to see?
 3. Is there ever going to be an instance of this object that this user shouldn't be allowed to edit?
 
-![A diagram for determining the sharing model for objects](/assets/sharing-model-diagram.png)
+![A diagram for determining the sharing model for objects](/Developer-Beginner/Data-Security/Control-Access-to-Records/assets/sharing-model-diagram.png)
 
 Based on your answers, you can set the sharing model for that object to one of these settings.
 
@@ -117,7 +117,7 @@ Use org-wide defaults to specify the baseline level of access that the most rest
 1. In Setup, use the Quick Find box to find `Sharing Settings`.
 2. Click `Edit` in the Organization-Wide Defaults area.
 
-    ![The Org-Wide Defaults Edit page](/assets/org-wide-defaults.png)
+    ![The Org-Wide Defaults Edit page](/Developer-Beginner/Data-Security/Control-Access-to-Records/assets/org-wide-defaults.png)
 
 3. For each object, select the default access you want to give everyone.
 4. To disable automatic access using your hierarchies, deselect `Grant Access Using Hierarchies` for any custom object that does not have a default access of Controlled by Parent.

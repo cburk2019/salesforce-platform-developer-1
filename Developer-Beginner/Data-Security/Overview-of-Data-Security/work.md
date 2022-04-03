@@ -101,7 +101,7 @@ Make a table of the various types of users in your organization. In the table, s
 
 ## Controlling Data Access with the Salesforce Platform
 
-![access control](/assets/access-control.png)
+![access control](/Developer-Beginner/Data-Security/Overview-of-Data-Security/assets/access-control.png)
 
 ## Audit System Use
 

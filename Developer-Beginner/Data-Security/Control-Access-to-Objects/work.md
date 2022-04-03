@@ -99,7 +99,7 @@ The profiles functionality in an org depends on the user license type.
 
 The profile overview page provides an entry point for all of the settings and permissions for a single profile. In Setup, use the Quick Find box to find Profiles and click the profile you want to view.
 
-![The profile overview page.](/assets/profile-overview-page.png)
+![The profile overview page.](/Developer-Beginner/Data-Security/Control-Access-to-Objects/assets/profile-overview-page.png)
 
 ## Create a Profile
 
@@ -107,7 +107,7 @@ The easiest way to create a profile is to clone an existing profile that’s sim
 
 Salesforce has an enhanced profile user interface that makes it easy to find and modify profile settings. That’s what we’ll use for this exercise. To do that, find User Management Settings in the `Quick Find` box in Setup, then enable `Enhanced Profile User Interface`.
 
-![A list of user profiles](/assets/user-profiles-example.png)
+![A list of user profiles](/Developer-Beginner/Data-Security/Control-Access-to-Objects/assets/user-profiles-example.png)
 
 1. In Setup, use the Quick Find box to find `Profiles`.
 2. Click `Clone` next to a profile similar to the one you want to create.
@@ -160,7 +160,7 @@ In each permission set, permissions and settings are organized into:
 - object permissions
 - field permissions
 
-![Permission set overview page](/assets/permission-set-overview.png)
+![Permission set overview page](/Developer-Beginner/Data-Security/Control-Access-to-Objects/assets/permission-set-overview.png)
 
 ### Note
 
@@ -173,7 +173,7 @@ Create a permission set to grant additional permissions to specific users, on to
 1. Use the Quick Find box to find `Permission Sets` in Setup.
 2. Click `Clone` next to the set you want to copy. A cloned permission set has the same user license as the original. To create a set with a different license, click `New` (1) instead.
 
-    ![Locate the New Permission Set button.](/assets/permission-sets-example.png)
+    ![Locate the New Permission Set button.](/Developer-Beginner/Data-Security/Control-Access-to-Objects/assets/permission-sets-example.png)
 
 3. Enter a label and a description. The API name is a unique name used by the API and managed packages. It automatically replicates the label, but you can modify it.
 4. If this is a new permission set, select a user license option.

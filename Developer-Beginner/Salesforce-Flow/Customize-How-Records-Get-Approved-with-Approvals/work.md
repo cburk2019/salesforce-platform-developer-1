@@ -15,7 +15,7 @@ An approval process automates how Salesforce records are approved in your org. I
 
 Let’s look at an example approval process to see how a record moves through various steps of the process. In this example, a user submits a request for a new position in a company.
 
-![Chart that shows an example approval process](/assets/approval-process.png)
+![Chart that shows an example approval process](/Developer-Beginner/Salesforce-Flow/Customize-How-Records-Get-Approved-with-Approvals/assets/approval-process.png)
 
 When a user first requests approval for a new position, initial submission actions occur. The default initial submission action locks the record. This action ensures that other users (except for approvers and admins) can’t change the record while it's pending approval. Other possible submission actions include sending an email alert, updating a field on a record, creating a task, and sending an outbound message.
 

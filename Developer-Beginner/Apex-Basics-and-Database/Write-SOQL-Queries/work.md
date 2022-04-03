@@ -285,8 +285,8 @@ It is preferable to use the sObject list format of the SOQL for loop as the loop
 
 ## Challenge
 
-![The challenge - Create an Apex class that returns contacts based on incoming parameters.](/assets/write-soql-queries-challenge.png)
+![The challenge - Create an Apex class that returns contacts based on incoming parameters.](/Developer-Beginner/Apex-Basics-and-Database/Write-SOQL-Queries/assets/write-soql-queries-challenge.png)
 
 ### The Solution
 
-![the solution](/assets/write-soql-queries-challenge-solution.png)
+![the solution](/Developer-Beginner/Apex-Basics-and-Database/Write-SOQL-Queries/assets/write-soql-queries-challenge-solution.png)

@@ -23,7 +23,7 @@ You can create validation rules for objects, fields, campaign members, or case m
      a. Rule Name: Account_Number_8_Characters
      b. Error Condition Formula:
 
-    ![LEN( AccountNumber) != 8](/assets/error-condition-formula.png)
+    ![LEN( AccountNumber) != 8](/Developer-Beginner/Formulas-and-Validations/Create-Validation-Rules/assets/error-condition-formula.png)
 
 5. Error Message: Account number must be 8 characters long.
 6. To check your formula for errors, click `Check Syntax`.
@@ -31,7 +31,7 @@ You can create validation rules for objects, fields, campaign members, or case m
 
 Here’s how a validation rule’s error message can appear when a user types an incorrect account number format into a field.
 
-![A filled out validation rule, including a related error message that the Account Number must be 8 characters long.](/assets/validation-rule-example-1.png)
+![A filled out validation rule, including a related error message that the Account Number must be 8 characters long.](/Developer-Beginner/Formulas-and-Validations/Create-Validation-Rules/assets/validation-rule-example-1.png)
 
 ## Examples of Validation Rules
 

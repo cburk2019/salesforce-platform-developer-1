@@ -46,7 +46,7 @@ As a language, Apex is:
 - Versioned
   - Custom Apex code can be saved against different versions of the API.
 
-![Apex is a cloud-based programming language](/assets/apex-cloud-based-language.png)
+![Apex is a cloud-based programming language](/Developer-Beginner/Apex-Basics-and-Database/Get-Started-with-Apex/assets/apex-cloud-based-language.png)
 
 ### Apex Language Highlights
 
@@ -251,7 +251,7 @@ The `inspectResults()` helper method, which is called by `sendMail()`, writes me
 1. In the Developer Console, click the ***Logs*** tab and double-click the most recent log in the list.
 2. Select `Debug Only` to filter the log so that only log lines for `System.debug()` statements are shown.
 
-![Filter the debug log in the Developer Console to view debug messages](/assets/filter-debug-log.png)
+![Filter the debug log in the Developer Console to view debug messages](/Developer-Beginner/Apex-Basics-and-Database/Get-Started-with-Apex/assets/filter-debug-log.png)
 
 You’ll see the following message in the filtered log view, assuming the email was sent without errors.
 
@@ -292,8 +292,8 @@ Because the `sendMail()` method in our class doesn’t access class member varia
 
 ### The Challenge
 
-![Create an Apex class with a method that returns a list of strings](/assets/get-started-with-apex-challenge.png)
+![Create an Apex class with a method that returns a list of strings](/Developer-Beginner/Apex-Basics-and-Database/Get-Started-with-Apex/assets/get-started-with-apex-challenge.png)
 
 ### The Solution
 
-![the solution](/assets/get-started-with-apex-challenge-solution.png)
+![the solution](/Developer-Beginner/Apex-Basics-and-Database/Get-Started-with-Apex/assets/get-started-with-apex-challenge-solution.png)

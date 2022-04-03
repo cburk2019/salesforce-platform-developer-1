@@ -60,7 +60,7 @@ We worked with Permission Sets when we set up our custom objects. Now we'll go b
 6. Find the object you're working with, then click its `Edit` link. In this example, we're modifying the Candidate object.
 7. Under `Field Permissions`, specify the kinds of access your interviewers need, then save this permission set.
 
-    ![The Field-Level Security Edit page for the Standard Employee profile](/assets/field-level-security-example.png)
+    ![The Field-Level Security Edit page for the Standard Employee profile](/Developer-Beginner/Data-Security/Control-Access-to-Fields/assets/field-level-security-example.png)
 
     See how we've enabled our interviewers to both read and change the values of the Apex and C# checkboxes? Now they can check or uncheck those boxes when they’ve determined the candidate’s command of those skills. We’ve prevented them from changing the Hire By date or the name of the hiring manager, but they can see that information. And they don’t need to know the pay rate for the position, so we’ve removed both their Read and Edit access for those fields.
 

@@ -24,7 +24,7 @@ So what are `quick actions`? Well, you can think of them as `shortcuts`. They of
 
 The Salesforce mobile app comes with some handy built-in actions, and they live in the action bar and action menu ( Action Menu icon) at the top of the screen. The action bar is visible on most pages, so quick actions are just one tap away for your mobile users.
 
-![The action bar and actions menu in the Salesforce mobile app](/assets/mobile-action-bar.png)
+![The action bar and actions menu in the Salesforce mobile app](/Developer-Beginner/Salesforce-Mobile-App-Customization/Create-Global-Quick-Actions/assets/mobile-action-bar.png)
 
 Pretty convenient, eh? But wait—there’s more!
 
@@ -79,7 +79,7 @@ To follow along with D’Angelo as he whips up a new global action, first we nee
     - Closing
     - Archive
 
-    ![A screesnhot of the Stage field's details](/assets/stage-field-details.png)
+    ![A screesnhot of the Stage field's details](/Developer-Beginner/Salesforce-Mobile-App-Customization/Create-Global-Quick-Actions/assets/stage-field-details.png)
 
 7. Click `Next`.
 8. Select `Visible` so the field is available to all profiles, then click `Next`.
@@ -97,7 +97,7 @@ Now that we’re on the same page as D’Angelo, we’re ready to get started. I
 4. In the Target Object dropdown list, select `Contact`.
 5. In the Label field, enter `New Prospect`.
 
-    ![A screenshot of the new action's details](/assets/new-action-details-example.png)
+    ![A screenshot of the new action's details](/Developer-Beginner/Salesforce-Mobile-App-Customization/Create-Global-Quick-Actions/assets/new-action-details-example.png)
 
 6. Click `Save`.
 
@@ -111,7 +111,7 @@ Let’s optimize the layout for the New Prospect action. D’Angelo wants to eli
 2. Remove the Account Name and Title fields from the layout.
 3. Add the Stage field to the layout.
 
-    ![A screenshot of the fields on the action layout](/assets/action-layout-fields-example.png)
+    ![A screenshot of the fields on the action layout](/Developer-Beginner/Salesforce-Mobile-App-Customization/Create-Global-Quick-Actions/assets/action-layout-fields-example.png)
 
     - Tip When customizing action layouts for mobile users, less is more. A best practice is to include fewer than five fields, and definitely no more than eight.
 
@@ -126,12 +126,12 @@ That’s not always possible depending on your use case, but D’Angelo can defi
 1. Go to the Global Actions list and click `New Prospect`.
 2. In the Predefined Field Values related list, click `New`.
 
-    ![A screenshot of the New button in the Predefined Field Values list](/assets/predefined-list-new-button.png)
+    ![A screenshot of the New button in the Predefined Field Values list](/Developer-Beginner/Salesforce-Mobile-App-Customization/Create-Global-Quick-Actions/assets/predefined-list-new-button.png)
 
 3. In the Field Name dropdown list, select `Stage`.
 4. In the Specify New Field Value section, select `Prospect`.
 
-    ![A screenshot of the predefined value for the Stage field](/assets/predefined-field-value-example.png)
+    ![A screenshot of the predefined value for the Stage field](/Developer-Beginner/Salesforce-Mobile-App-Customization/Create-Global-Quick-Actions/assets/predefined-field-value-example.png)
 
 5. Click `Save`.
 
@@ -147,11 +147,11 @@ D’Angelo wants the brokers to be able to create a new prospect directly from t
 2. Click `Edit` next to Global Layout.
 3. In the Salesforce Mobile and Lightning Experience Actions section, if you see a link to `override the predefined actions`, click the link to override.
 
-    ![A screenshot of the Override Predefined Actions link in the Publisher](/assets/override-predefined-actions.png)
+    ![A screenshot of the Override Predefined Actions link in the Publisher](/Developer-Beginner/Salesforce-Mobile-App-Customization/Create-Global-Quick-Actions/assets/override-predefined-actions.png)
 
 4. Select `Mobile & Lightning Actions` in the upper palette of the layout editor, then drag the New Prospect quick action into the mobile section. Make sure it’s the first item.
 
-    ![A screenshot of the New Prospect action in the Global Publisher Layout](/assets/global-publisher-layout-new-prospect-action.png)
+    ![A screenshot of the New Prospect action in the Global Publisher Layout](/Developer-Beginner/Salesforce-Mobile-App-Customization/Create-Global-Quick-Actions/assets/global-publisher-layout-new-prospect-action.png)
 
     - The order of the actions here determines their order in the mobile app. Reorganize them so the most frequently used actions are first, and remove any unused actions.
 
@@ -168,11 +168,11 @@ Congratulations! You successfully created your first global action. Why don’t 
 3. Select `Chatter` in the menu to navigate to the feed.
 4. Tap New Prospect in the action bar.
 
-    ![The New Prospect action in the Salesforce mobile app action bar](/assets/new-prospect-action-button.png)
+    ![The New Prospect action in the Salesforce mobile app action bar](/Developer-Beginner/Salesforce-Mobile-App-Customization/Create-Global-Quick-Actions/assets/new-prospect-action-button.png)
 
 5. Enter the required data. The Stage field should default to “Prospect.”
 
-    ![A screenshot of the prospect's details in the Salesforce mobile app](/assets/new-prospects-details-example.png)
+    ![A screenshot of the prospect's details in the Salesforce mobile app](/Developer-Beginner/Salesforce-Mobile-App-Customization/Create-Global-Quick-Actions/assets/new-prospects-details-example.png)
 
 6. Tap Save.
 

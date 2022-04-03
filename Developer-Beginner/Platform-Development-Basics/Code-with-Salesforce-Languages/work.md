@@ -24,7 +24,7 @@ The biggest plus is that Lightning components are ready to go with all business 
 
 The Developer Console is the Salesforce IDE (integrated development environment) that is used to develop, debug, and test code in an org.
 
-![developer console](/assets/developer-console.png)
+![developer console](/Developer-Beginner/Platform-Development-Basics/Code-with-Salesforce-Languages/assets/developer-console.png)
 
 Things to note from the Developer Console:
 
@@ -34,7 +34,7 @@ Things to note from the Developer Console:
 
 Under the CONTROLLER tab on the right, you can see JavaScript being used. Lightning components use client-side JavaScript controllers and server-side Apex controllers.
 
-![Developer Console JavaScript](/assets/developer-console-javascript.png)
+![Developer Console JavaScript](/Developer-Beginner/Platform-Development-Basics/Code-with-Salesforce-Languages/assets/developer-console-javascript.png)
 
 You can create and access the controllers as well as other assets like component style sheets, from the **BUNDLE** menu.
 
@@ -50,7 +50,7 @@ You can extend the functionality by writing a little code.
 
 Here is how Push Notifications are added in the Developer Console:
 
-![DC push notifications](/assets/developer-console-apex.png)
+![DC push notifications](/Developer-Beginner/Platform-Development-Basics/Code-with-Salesforce-Languages/assets/developer-console-apex.png)
 
 There are two things to notice in the picture:
 
