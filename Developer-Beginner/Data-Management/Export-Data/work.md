@@ -57,6 +57,6 @@ Get Cloudy
 
 - [Data Loader Overview](https://help.salesforce.com/HTViewHelpDoc?id=data_loader.htm&language=en_US)
 - [Installing Data Loader](https://help.salesforce.com/apex/HTViewHelpDoc?id=installing_the_data_loader.htm&language=en_US)
-- [Ecporting Data using the Data Loader](https://help.salesforce.com/HTViewHelpDoc?id=exporting_data.htm&language=en_US)
-- [Ecplore how to export data more effectively in Salesforce](http://pages.mail.salesforce.com/achievemore/managedata/?utm_source=trailhead&utm_medium=resources&utm_campaign=datamanagement&utm_content=exportdata)
+- [Exporting Data using the Data Loader](https://help.salesforce.com/HTViewHelpDoc?id=exporting_data.htm&language=en_US)
+- [Explore how to export data more effectively in Salesforce](http://pages.mail.salesforce.com/achievemore/managedata/?utm_source=trailhead&utm_medium=resources&utm_campaign=datamanagement&utm_content=exportdata)
 - [Best Practice Hub: Improve Data Quality](http://pages.mail.salesforce.com/page.aspx?QS=3935619f7de112ef3fdd44cfb3dcb15df8ef83257379ba31&utm_source=trailhead&utm_medium=resources&utm_campaign=072016)

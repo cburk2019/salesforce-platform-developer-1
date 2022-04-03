@@ -162,7 +162,7 @@ Execute this snippet in the Execute Anonymous window of the Developer Console. N
 
 ### SOSL Apex Example Result
 
-![sosl apex result](/assets/sosl-apex-example-result.png)
+![sosl apex result](/Developer-Beginner/Apex-Basics-and-Database/Write-SOSL-Queries/assets/sosl-apex-example-result.png)
 
 ## **Tell Me More...**
 
@@ -194,4 +194,4 @@ To pass this challenge, create an Apex class that returns both contacts and lead
 
 ### Challenge Solution
 
-![challenge solution](/assets/write-sosl-queries-challenge-solution.png)
+![challenge solution](/Developer-Beginner/Apex-Basics-and-Database/Write-SOSL-Queries/assets/write-sosl-queries-challenge-solution.png)

@@ -115,7 +115,7 @@ Typically, you use the specific sObject data type, such as Account for a standar
 
 Variables that are declared with the generic sObject data type can reference any Salesforce record, whether it is a standard or custom object record.
 
-![A generic sObject variable can point to any Salesforce record](/assets/generic-sObject-variable.png)
+![A generic sObject variable can point to any Salesforce record](/Developer-Beginner/Apex-Basics-and-Database/Use-sObjects/assets/generic-sObject-variable.png)
 
 This example shows how any Salesforce object, such as an account or a custom object called Book__c, can be assigned to a generic sObject variable.
 
@@ -126,7 +126,7 @@ This example shows how any Salesforce object, such as an account or a custom obj
 
 In contrast, variables that are declared with the specific sObject data type can reference only the Salesforce records of the same type.
 
-![A specific sObject variable can point to the Salesforce record of the same type only](/assets/specific-sObject-variables.png)
+![A specific sObject variable can point to the Salesforce record of the same type only](/Developer-Beginner/Apex-Basics-and-Database/Use-sObjects/assets/specific-sObject-variables.png)
 
 ### Cast Generic sObjects to Specific sObject Types
 

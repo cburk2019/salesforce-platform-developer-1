@@ -397,8 +397,8 @@ DML operations execute within a transaction. All DML operations in a transaction
 
 ## Hands-On Challenge
 
-![the challenge - Create a method for inserting accounts.](/assets/manipulate-records-with-DML-challenge.png)
+![the challenge - Create a method for inserting accounts.](/Developer-Beginner/Apex-Basics-and-Database/Manipulate-Records-with-DML/assets/manipulate-records-with-DML-challenge.png)
 
 ### Solution
 
-![the solution](/assets/manipulate-records-with-DML-challenge-solution.png)
+![the solution](/Developer-Beginner/Apex-Basics-and-Database/Manipulate-Records-with-DML/assets/manipulate-records-with-DML-challenge-solution.png)
