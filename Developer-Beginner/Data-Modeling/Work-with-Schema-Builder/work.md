@@ -20,7 +20,7 @@ So far, we have created custom objects, fields, and relationships. My app's data
 3. Check Contact, Favorite, Offer, and Property. You should have the Favorite object from the previous unit, and the Offer and Property objects from the previous challenges.
 4. Click `Auto-Layout`.
 
-![schema builder example 2](/assets/schema-builder-example-2.png)
+![schema builder example 2](/Developer-Beginner/Data-Modeling/Work-with-Schema-Builder/assets/schema-builder-example-2.png)
 
 You can drag the objects around the canvas and it won't affect the objects or their relationships. This is to help visualize the data model.
 

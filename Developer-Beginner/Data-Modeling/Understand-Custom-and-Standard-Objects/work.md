@@ -12,7 +12,7 @@
 
 ### What a Database Spreadsheet looks like, which is not ideal
 
-![database spreadsheet example](/assets/database-spreadsheet.png)
+![database spreadsheet example](/Developer-Beginner/Data-Modeling/Understand-Custom-and-Standard-Objects/assets/database-spreadsheet.png)
 
 In Salesforce:
 
@@ -24,7 +24,7 @@ So, instead of an account spreadsheet, we have an Account object with fields and
 
 When data model is discussed, a collection of objects and fields in an app is what we're talking about. See below.
 
-![database tables as an object](/assets/database-table-as-an-object.png)
+![database tables as an object](/Developer-Beginner/Data-Modeling/Understand-Custom-and-Standard-Objects/assets/database-table-as-an-object.png)
 
 ## Get to Know Objects
 
@@ -110,7 +110,7 @@ Data types are pretty straight-forward. One tip is to consider what kind of data
 
 This is what a new record looks like:
 
-![create-a-record](/assets/create-a-record.png)
+![create-a-record](/Developer-Beginner/Data-Modeling/Understand-Custom-and-Standard-Objects/assets/create-a-record.png)
 
 ## Customize Responsibly
 
