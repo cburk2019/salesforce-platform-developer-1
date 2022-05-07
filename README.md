@@ -7,3 +7,6 @@ Am I scared? Honestly, kind of. What I am scared of is timing, yet I have not ac
 With this new direction I have with SalesForce, I am hoping I can turn my life trajectory around and gain an invaluable skill and relearn what it means to learn. I am excited for the possibilities this career path can take me on.
 
 Here we go!
+
+- [Platform Developer I Prework](/Platform-Developer-I-Prework/README.md)
+- [Developer Beginner](/Developer-Beginner/README.md)

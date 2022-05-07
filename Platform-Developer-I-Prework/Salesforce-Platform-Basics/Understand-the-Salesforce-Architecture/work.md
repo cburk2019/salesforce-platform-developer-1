@@ -1,4 +1,4 @@
-# Understand the Salesforce Architecture
+# Salesforce -> Platform Developer I Prework -> Salesforce Platform Basics -> Understand the Salesforce Architecture
 
 ## Learning Objectives
 

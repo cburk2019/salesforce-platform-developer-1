@@ -1,4 +1,4 @@
-# Power Up with AppExchange
+# Salesforce -> Platform Developer I Prework -> Salesforce Platform Basics -> Power Up with AppExchange
 
 ## Learning Objectives
 
